@@ -1,3 +1,7 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 /* Title Section */
 
 #title {
@@ -13,7 +17,7 @@
 }
 
 .title-heading {
-  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
   font-size: 4.5rem;
   color: #fff;
   border: 2px solid;
@@ -37,15 +41,39 @@ padding: 0 0 0 18px;
 
 .nav-link {
   color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-link:hover {
-  color: #E5E4E4;
+  color: #8c8c8c;
 }
 
+/* About Section */
 
+#about h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
 
+#about p {
+  font-family: 'Alata', sans-serif;
+  font-size: 0.8rem;
+  color: #8c8c8c;
+  line-height: 2;
+}
+
+.about-container {
+  position: relative;
+  padding: 10% 10%;
+}
+
+.about-text {
+  background-color: #fff;
+  left: 50%;
+  top: 44%;
+  width: 36%;
+  padding: 7% 0 0 7%;
+  position: absolute;
+}
 
 
 
