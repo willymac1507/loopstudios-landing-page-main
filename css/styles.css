@@ -1,0 +1,61 @@
+/* Title Section */
+
+#title {
+}
+
+.title-container {
+  background-image: url("/images/desktop/image-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  padding: 3% 11% 10%;
+}
+
+.title-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 4.5rem;
+  color: #fff;
+  border: 2px solid;
+  margin-left: 2%;
+  padding: 5% 5%;
+}
+
+.image-class {
+  position: relative;
+  z-index: -1;
+}
+
+.navbar {
+  position: relative;
+  margin-bottom: 10%;
+}
+
+.nav-item {
+padding: 0 0 0 18px;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-link:hover {
+  color: #E5E4E4;
+}
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
