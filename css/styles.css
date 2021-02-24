@@ -2,10 +2,13 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-/* Title Section */
-
-#title {
+h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }
+
+/* Title Section */
+#title {}
 
 .title-container {
   background-image: url("/images/desktop/image-hero.jpg");
@@ -36,7 +39,7 @@ body {
 }
 
 .nav-item {
-padding: 0 0 0 18px;
+  padding: 0 0 0 18px;
 }
 
 .nav-link {
@@ -48,12 +51,6 @@ padding: 0 0 0 18px;
 }
 
 /* About Section */
-
-#about h2 {
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-
 #about p {
   font-family: 'Alata', sans-serif;
   font-size: 0.8rem;
@@ -63,21 +60,45 @@ padding: 0 0 0 18px;
 
 .about-container {
   position: relative;
-  padding: 10% 10%;
+  padding: 10% 12%;
 }
 
 .about-text {
   background-color: #fff;
   left: 50%;
-  top: 44%;
-  width: 36%;
+  top: 42.5%;
+  width: 38.2%;
   padding: 7% 0 0 7%;
   position: absolute;
 }
 
+/* Creations Section */
+.creations-container {
+  padding: 0% 12%;
+}
 
+.see-button {
+  background-color: #fff;
+  padding: 1% 5%;
+  margin-top: 8px;
+  font-family: 'Alata', sans-serif;
+  font-size: .6rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
 
+.see-button:hover {
+  background-color: #8c8c8c;
+  color: #fff;
+}
 
+.creations-row {
+  margin-bottom: 5%;
+}
+
+.pic-row {
+  padding: 1% 0;
+}
 
 .attribution {
   font-size: 11px;
